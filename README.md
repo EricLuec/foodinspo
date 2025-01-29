@@ -1,2 +1,0 @@
-Foodinspo
--> readme coming soon
