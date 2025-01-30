@@ -1,13 +1,10 @@
-import { Button, HStack } from '@chakra-ui/react';
 import './App.css';
+import { Map } from './pages/map/Page';
+
 
 function App() {
   return (
-    <HStack>
-      <Button>
-        hello
-      </Button>
-    </HStack>
+    <Map />
   );
 }
 
