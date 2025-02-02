@@ -1,10 +1,10 @@
 import './App.css';
-import { Map } from './pages/map/Page';
+import { HomePage } from './pages/home/Page.tsx';
 
 
 function App() {
   return (
-    <Map />
+    <HomePage />
   );
 }
 
