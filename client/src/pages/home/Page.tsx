@@ -1,7 +1,12 @@
 export function HomePage() {
+    const loggedIn = false;
     return (
         <div>
-            <p>hello</p>
+            { loggedIn ? 
+                // dialog
+                <p>log in!</p>
+                : <p>hello</p>
+            }
         </div>
     )
 }
